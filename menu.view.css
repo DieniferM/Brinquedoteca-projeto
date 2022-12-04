@@ -1,0 +1,115 @@
+
+h11 {
+    color:red;
+}
+h1 {
+text-align: center;
+}
+
+#logo {
+    display: block;
+    margin-left: 50;
+    margin-right: 10;
+        width:50%;
+        height:30%;
+        
+}
+/* #div{
+  text-align: right;
+
+} */
+/* div{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  background: red;
+} */
+
+
+.panel-heading{
+    font-size:150%;
+    text-align: center;
+    
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.container{
+  padding: right;
+}
+.card{
+  width: 250px;
+  height: 720px;
+  background-color: #0e71c9;;;
+  border-radius: 10px 10px;
+}
+.header{
+  border-radius: 10px 10px 0px 0px;
+  padding: 5px;
+  background-color: #428bca;
+}
+
+
+/* Menu */
+h3{
+  color: #0f0f0f;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 6rem;
+  
+}
+.iconM{
+  font-size: 18px;
+  margin-left: 170px;
+  color: #2f89fc;
+}
+.icon{
+  margin-right: 8px;
+}
+.body li{
+  transition: 1s all;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  padding: 15px;
+  margin-left: -40px;
+  margin-top: 0px;
+  color: #fff;
+  list-style: none;
+  display: block;
+  border-top-right-radius: 10px 10px;
+  border-bottom-right-radius: 10px 10px;
+}
+
+li:hover{
+  transition: 1s all;
+  color: #0f1011;
+  background-color: rgba(245, 239, 237, 0.82);
+  border-top-right-radius: 10px 10px;
+  border-bottom-right-radius: 10px 10px;
+  cursor: pointer;
+}
+
+.body > li{
+  float: left;
+}
+
+.body li ul{
+  background: #1E2B32;
+  margin-left: 280px;
+  margin-top: -38px;
+  display: none;
+  position: absolute;
+  border-top-right-radius: 15px 15px;
+  border-bottom-right-radius: 15px 15px;
+}
+
+.body li:hover > ul{
+  display: block;
+  cursor: pointer;
+}
+
+
+
